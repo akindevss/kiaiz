@@ -1,14 +1,11 @@
+---
 application:
-  name: kirkamiz
-  project: kirkamiz
-  publicly_accessible: true
-databases:
-- type: postgresql
-  version: "12"
-  name: my-psql
+  name: "kiaiz"
+  project: "aeiizz"
+  organization: "QoveryCommunity"
 routers:
-- name: main
+- name: "main-kiaiz"
   routes:
-  - application_name: kirkamiz
+  - application_name: "kiaiz"
     paths:
-    - /
+    - "/*"
