@@ -1,0 +1,14 @@
+application:
+  name: kirkamiz
+  project: kirkamiz
+  publicly_accessible: true
+databases:
+- type: postgresql
+  version: "12"
+  name: my-psql
+routers:
+- name: main
+  routes:
+  - application_name: kirkamiz
+    paths:
+    - /
